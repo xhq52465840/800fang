@@ -1,0 +1,193 @@
+.da-category .dd{
+	display: none;
+}
+.detail-link {
+    height: 40px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 40px;
+    margin: 10px 0;
+    height: 42px;
+}
+.detail-link li {
+    float: left!important;
+    padding-right: 14px;
+}
+.detail-link li a {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ico-home {
+    background-image: url(../img/index/ico.png)!important;
+    width: 20px;
+    height: 14px;
+    background-position: 0 -45px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.goods-data h1{
+	color: #CCCCCC;
+	margin-top: 25px;
+}
+.goods-price{
+	font-size: 20px;
+}
+.f30{
+	color: red;
+}
+.goods-functions li{
+	margin-top: 20px;
+}
+.goods-btn{
+	margin-top: 20px;
+}
+.btn-buy{
+	font-size: 20px;
+	color: red;
+}
+.da-cart-add{
+	background: red;
+	    height: 31px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.goods-tips{
+	margin-top: 200px;
+	font-size: 20px;
+	color: #666666;
+}
+.current{
+	float: left;
+	font-size: 20px;
+}
+.lalala li{
+	padding: 20px;
+	margin-top: 50px;
+}
+.lalala ul{
+	border-bottom: 1px solid #CCCCCC;
+}
+.da-assure {
+    background-color: #fff;
+    height: 79px;
+    line-height: 79px;
+    border-bottom: solid 1px #e0e0e0;
+    box-shadow: 0 2px 2px #e0e0e0;
+    border-top: solid 1px #d8d8d8;
+    color: #666666;
+}
+.da-assure ul {
+    width: 960px;
+    margin: 0 auto;
+}
+.da-assure li {
+    float: left;
+    margin-left: 130px;
+    font-size: 14px;
+}
+.da-assure li:first-child {
+    margin-left: 0;
+}
+.da-assure .ico-arrow {
+    background-position: -2px -135px;
+    width: 22px;
+    height: 41px;
+    margin-left: 50px;
+}
+.ico-arrow {
+    background: url(../img/index/ico_arrow.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.da-assure .assure-1{
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+    background: url(../img/login/ico-assure.png) no-repeat;
+}
+.da-assure .assure-2 {
+    background: url(../img/login/ico-assure.png) -36px 0 no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+.da-assure .assure-3 {
+    background: url(../img/login/ico-assure.png) -73px 0 no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+.da-investor {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 24px 0 40px 42px;
+    border-bottom: solid 1px #d8d8d8;
+    color: #666666;
+}
+
+.da-investor .first {
+    width: 660px;
+    float: left;
+}
+.da-investor dt {
+    font-size: 18px;
+    line-height: 40px;
+}
+.da-investor dd {
+    font-size: 14px;
+    line-height: 20px;
+}
+.da-investor .second {
+    overflow: hidden;
+}
+.da-copyright {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.da-copyright p {
+    padding: 20px 0 0;
+    color: #666666;
+}
+
+.f14 {
+    font-size: 14px;
+    color: #666666;
+}
+.da-copyright table {
+    margin: 20px auto 0;
+    width: 530px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 45px;
+}
+table td{
+	padding: 0;
+	height: 45px;
+}
+/*.da-copyright table a, .da-copyright table span {
+    float: left;
+    margin-right: 2px;
+}
+table tbody{
+	height: 45px;
+}
+table tr{
+	height: 45px;
+}*/
+.heiheihei li{
+	float: left;
+}
+
+.da-copyright p {
+    padding: 20px 0 0;
+}

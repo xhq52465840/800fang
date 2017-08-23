@@ -1,0 +1,35 @@
+.logo {
+       margin-left: 30px;;
+}
+.logo {
+    float: left;
+    width: 280px;
+    height: 60px;
+    background:url(../img/index/logo.png) no-repeat;
+}
+.other{
+	    float: right;
+    margin-right: 72px;
+}
+.pay{
+	height: 60px;
+	background-color: bisque;
+}
+.pay td{
+	padding-left: 197px;
+}
+#cccc{
+	width: 60px;
+	height:50px;
+	border: 1px solid #CCCCCC;
+}
+#cccc img{
+	width: 60px;
+	height:50px;
+	/*border: 1px solid #CCCCCC;*/
+}
+.pay input{
+	    width: 24px;
+    height: 24px;
+    text-align: center;
+}
