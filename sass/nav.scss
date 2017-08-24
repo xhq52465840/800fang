@@ -1,0 +1,122 @@
+.nav{
+    width: 37px;
+    height: 805px;
+    background: #494e56;
+    position: fixed;
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+    .top{
+           height: 44px;
+    width: 22px;
+    text-align: center;
+    position: fixed;
+    top: 750px;
+//  background: wheat;
+
+    }
+}
+.shoppingCart{
+    width: 270px;
+    height: 410px;
+    color: rgb(51, 51, 51);
+    position: fixed;
+    background-color: #f2f2f2;
+    right: 38px;
+    top: 203px;
+    z-index: 20;
+    p {
+        span{
+            color: red;
+        }
+    }
+    display: none;
+    .cfb-title-box{
+        width: 270px;
+        height: 40px;
+        border-bottom: 1px solid #dedede;
+        padding: 0 33px;
+        color: #666;
+          padding-top: 11px;
+    }
+    p{
+         font: 12px/22px tahoma, Arial, 宋体;
+    line-height: 19px;
+    margin-top: 3px;
+
+    }
+    ul{
+        height: 324px;
+        width: 270px;
+        border-bottom: 1px solid #dedede;
+        list-style: none;
+      li{
+          margin-bottom: 10px;
+              font: 12px/22px tahoma, Arial, 宋体;
+      }  
+    }
+}
+.customerService{
+//  display: none;
+    position: fixed;
+    height: 204px;
+    width: 270px;
+    border: 1px solid #DEDEDE;
+    right: 38px;
+    top: 320px;
+    .customerService_title{
+        width: 270px;
+        height: 35px;
+         padding: 0 33px;
+         padding-top:3px;
+         p{
+             font: 12px/22px tahoma, Arial, 宋体;
+             text-align: left;
+         }
+         
+}
+img{
+             margin-left:75px;
+             margin-top: 10px;
+            
+         }
+   p{
+             text-align: center;
+             font: 15px/22px tahoma, Arial, 宋体;
+             margin-bottom: 0;
+             line-height: 15px;
+         }
+    display: none;
+         
+}
+.signin{
+    position: fixed;
+    height: 109px;
+    width: 270px;
+    border: 1px solid #DEDEDE;
+    right: 38px;
+    top: 478px;
+    display: none;
+    .signin_1{
+        height: 50px;
+        width: 270px;
+        border-bottom: 1px dotted #DEDEDE;
+//      padding-left:5px;
+            padding-left: 70px;
+    padding-top: 16px;
+       i{
+           font-size: 20px;
+           margin-right: 10px;
+       }
+       button{
+           margin-right: 10px;
+       }
+    }
+    p{
+        line-height: 50px;
+        text-align: center;
+             font-size: 15px;
+             font-family: "宋体";
+        
+    }
+}

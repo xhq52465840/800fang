@@ -1,25 +1,47 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>js的基本使用</title>
-</head>
-<body>
-	<script type="text/javascript" src="demo1.js">// 一旦在这里引入，就不要在script元素里写代码了
-		//行级注释 注释是给开发者使用的
-		/*
-		  方法注释 
-		*/
-		/**
-			文档注释
-		*/
-		//alert("helloworld");//弹出框式的 输出
-		//console.log("日志记录");//日志记录
-		//document.write("文档<strong>写</strong>出");//可以直接改变dom结构
-		/*
-			一个页面里可以写多个script的
-		*/
-	</script>
-	
-</body>
-</html>
+
+	<div class="nav" style="padding-left: 9px;">
+		<i class="glyphicon glyphicon-calendar text-center" style="font-size: 19px;color: white;  margin-top: 200px;margin-bottom: 10px;">
+		
+		</i>
+	<p style="font-size: 19px;color: white;width: 20px; border-bottom: 1px solid white;padding-bottom: 10px;" class="text-center">购物车</p>
+	<span id="count"></span>
+
+	<i class="glyphicon glyphicon-headphones"style="font-size: 19px;color: white; margin-bottom: 10px;"> </i>
+	<p style="font-size: 19px;color: white;width: 20px; border-bottom: 1px solid white;padding-bottom: 10px;" class="text-center">客户咨询</p>
+	<i class="glyphicon glyphicon-user"style="font-size: 19px;color: white; margin-bottom: 10px;"></i>
+	<p style="font-size: 19px;color: white;width: 20px; border-bottom: 1px solid white;padding-bottom: 10px;" class="text-center">登录</p>
+	<div class="top">
+		<i class="glyphicon glyphicon-chevron-up"></i>
+		<span>top</span>
+	</div>
+	</div>
+	<div class="shoppingCart">
+		<div class="cfb-title-box">
+                            <i class="glyphicon glyphicon-calendar" style="font-size: 20px;display: block;float: left;margin-right: 10px;"></i>
+                            <p>购物车</p>
+                           
+                        </div>
+           <ul>
+                            	<li style="text-align: center;">购物车为空</li>
+                            </ul>
+                           <p style="float: left;">共<span>0</span>件商品  共计￥<span id="price">0.00</span></p>
+                           <button type="button" class="btn btn-success" style="    float: right;
+    margin-right: 23px;">去结算</button>
+	</div>
+	<div class="customerService">
+		<div class="customerService_title">
+			<i class="glyphicon glyphicon-hand-right" style="float: left;font-size: 19px;margin-right: 10px;"></i>
+			<p>客服</p>
+		</div>
+		<img src="../../img/index/0.jpg"/>
+		<p>微信扫码</p>
+		<p>立减5元</p>
+	</div>
+	<div class="signin">
+		<div class="signin_1">
+			<i class="glyphicon glyphicon-user" style="font-size: 15px;"></i>
+			<button type="button" class="btn btn-info btn-default btn-xs">登录</button>
+			<button type="button" class="btn btn-info btn-default btn-xs">注册</button>
+		</div>
+		<p>注册就送150元超级豪华套餐</p>
+	</div>
