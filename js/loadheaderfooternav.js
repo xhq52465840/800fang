@@ -43,12 +43,40 @@ define(["jquery"],function($){
 		success:function(data){
 			$(data).appendTo(".header0");
 			$(".fullProducts").mouseenter(function(){
+				$(".sort_list").show("slow")
+			})
+			$(".sort_list").mouseenter(function(){
 				$(".sort_list").show()
+				
 			}).mouseleave(function(){
-				$(".sort_list").hide()
+				$(".sort_list").hide();
+				$(".detail_big").hide()
 				
 			})
-		}
+			$(".sort_list li").mouseenter(function(){
+				$(this).siblings().css({
+					"background":"#0f5cb3",
+					"color":"white"
+				})
+				$(this).css({
+					"background":"white",
+					"color":"#0f5cb3"
+				})
+				$(".detail_big").show("slow")
+			})
+			$(".detail_big").mouseenter(function(){
+				$(".detail_big").show();
+				$(".sort_list").show()
+				
+				
+			}).mouseleave(function(){
+				$(".sort_list").hide();
+				
+				$(".detail_big").hide()
+				
+			});
+			
+			}
 	});
 
 });

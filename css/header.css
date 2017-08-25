@@ -122,7 +122,7 @@
   border-left: 1px solid #b7b7b7;
 }
 .search_link a:hover {
-  color: red;
+  color: #E6186F;
 }
 
 .header2 {
@@ -161,9 +161,6 @@
   text-decoration: none;
   color: #222;
 }
-.header2 .header2_1 .main_nav li a锛歨over {
-  color: #E6186F;
-}
 
 .sort_list {
   display: none;
@@ -180,17 +177,65 @@
   padding-left: 0px;
 }
 .sort_list ul li {
-  height: 41px;
-  margin-top: 11px;
+  height: 51px;
+  line-height: 51px;
   color: white;
 }
 .sort_list ul li i {
+  line-height: 51px;
   float: left;
   margin-right: 23px;
   margin-left: 23px;
 }
-.sort_list ul li锛歨over {
-  background: white;
+
+.detail_big {
+  z-index: 200;
+  height: 532px;
+  width: 1000px;
+  position: absolute;
+  display: none;
+  left: 235px;
+  top: 296px;
+  opacity: 0.78;
+}
+.detail_big .sort-detail-list {
+  padding-left: 50px;
+  float: left;
+  width: 730px;
+  background: #FFFFFF;
+  height: 532px;
+}
+.detail_big .sort-detail-list dl {
+  margin-bottom: 60px;
+}
+.detail_big .sort-detail-list dl dd a {
+  float: left;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #b7b7b7;
+  margin-top: 10px;
+}
+.detail_big .sort-detail-list dl dd a:hover {
+  color: #E6186F;
+}
+
+.pinpai {
+  background: #CCCCCC;
+  height: 532px;
+  width: 220px;
+  float: right;
+  opacity: 0.75;
+}
+.pinpai p {
+  height: 50px;
+  line-height: 50px;
+}
+.pinpai img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.pinpai span锛歨over {
+  color: #E6186F;
 }
 
 /*# sourceMappingURL=header.css.map */
