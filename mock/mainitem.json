@@ -1,0 +1,31 @@
+[
+	{
+		"name":"肾宝片",
+		"discribe":"滋阴补肾美滋滋",
+		"pricenow":"50",
+		"priceago":200,
+		"src":"../img/index/product01.jpg"
+	},
+	{
+		"name":"舒经健腰丸",
+		"discribe":"送伤湿止痛膏",
+		"pricenow":"50",
+		"priceago":200,
+		"src":"../img/index/product02.jpg"
+	},
+	{
+		"name":"肾宝片",
+		"discribe":"滋阴补肾美滋滋",
+		"pricenow":"50",
+		"priceago":200,
+		"src":"../img/index/product03.jpg"
+	},
+	{
+		"name":"肾宝片",
+		"discribe":"滋阴补肾美滋滋",
+		"pricenow":"50",
+		"priceago":200,
+		"src":"../img/index/product01.jpg"
+	}
+
+]

@@ -166,7 +166,8 @@
     position: absolute;
     background-color: #0f5cb3;
       top: 295px;
-    left: 45px;
+    left: 37px;
+    z-index: 70;
     ul{
         width: 190px;
         list-style: none;
@@ -197,7 +198,7 @@
 display: none;
    left: 235px;
     top: 296px;
-    opacity: 0.78;
+    opacity: 0.85;
     .sort-detail-list{
         
         padding-left: 50px;

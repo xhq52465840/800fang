@@ -5,6 +5,8 @@ require.config({
 		"jquery":"lib/jquery/jquery-1.12.4.min",
 		"cookie":"lib/jquery/_plugins/jquery.cookie",
 		"arttemplate":"lib/arttemplate/template-native",
-		"load":"js/loadheaderfooternav"
+		"load":"js/loadheaderfooternav",
+		"lunbo":"js/js",
+		"tool":"js/tools"
 	}
 })

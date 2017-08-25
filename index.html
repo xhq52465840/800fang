@@ -3,9 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/nav.css"/>
 		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<script type="text/javascript" src="../lib/requirejs/require.js" data-main = "js/index"></script>
 		
 	<body>
@@ -18,5 +20,118 @@
 		<div class="header0">
 			
 		</div>
+		<div class="lunb" style="">
+		<div id="container">
+		<ul>
+			<li style="display: block;"><img src="img/index/01.jpg"></li>
+			<li><img src="img/index/02.jpg"></li>
+			<li><img src="img/index/03.jpg"></li>
+			<li><img src="img/index/04.jpg"></li>
+		</ul>
+		<div id="pages">
+			<div class="current"></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+
+		
+		<div class="slide">
+			<p style="height: 30px;background: blue; text-align: center;line-height: 30px;font-size: 16px;color: red;">让您放心服务</p>
+			<img src="img/regist/cert.png"/>
+			<img src="img/login/cnnic.png" />
+			<img src="img/login/ico_zfb.jpg" />
+		</div>
+		</div>
+		<div class="main-sell-list0">
+			<div class="main-sell-list" style="">
+
+			</div>
+		</div>
+		<div class="brand-box0">
+			<div class="brand-box">
+				
+		
+		<p>品牌商家推荐</p>
+			<img  class="brand-img"  style="float: left;"/>
+			<img class="brand-img0" />
+			<img class="brand-img0" />
+			<img class="brand-img0" />
+			<img class="brand-img0" />
+			<img class="brand-img0" />
+			<img class="brand-img0" />
+			<img class="brand-img0" />
+			<img class="brand-img0" /><img class="brand-img0" />
+			<img class="brand-img0" />
+			<img class="brand-img0" />
+			<img class="brand-img0" />
+				</div>
+		</div>
+	<div class="discount0">
+		<div class="discount">
+		<p><i class="glyphicon glyphicon-heart" style="color: red;"></i>每日优惠</p>
+			
+		</div>
+	</div>
+	<div class="main-cate-box0">
+		<div class="main-cate-box">
+			<div class="cate-header">
+				<p>药品分类</p>
+				<a>全部商品分类</a>
+			</div>
+			<div class="cate-list">
+				
+			</div>
+			
+		</div>
+	</div>
 	</body>
+
+	<script type="text/html" id="mainitem">
+		<%for(var i = 0;i<list.length;i++){
+			var prod = list[i];
+			%>
+			<div class="main-sell-item">
+					<a  href="#" onclick="return false"><%=prod.name%></a>
+					<p class="pd-desp"><%=prod.discribe%></p>
+					<p class="pd-price">
+                            <em><%=prod.pricenow%></em>
+                            <del>/<%=prod.priceago%></del>
+                        </p>
+                        <img src=<%=prod.src%>/>
+				</div>
+		<%}%>
+		
+	</script>
+	<script type="text/html" id="discount">
+			<%for(var i = 0;i<list;i++){
+			%>
+		<div class="cate-item"><div class="cate-item-header"><%="家庭常备"%></div><div class="cate-detail">
+						<dl>
+							<dt><%="感冒清热"%></dt>
+							<dd><%="999感冒灵"%></dd>
+							<dd><%="小柴胡颗粒"%></dd>
+							<dd><%="夏桑菊颗粒"%></dd>
+							
+						</dl>
+							<dl>
+							<dt><%="感冒清热"%></dt>
+							<dd><%="999感冒灵"%></dd>
+							<dd><%="小柴胡颗粒"%></dd>
+							<dd><%="夏桑菊颗粒"%></dd>
+							
+						</dl>
+							<dl>
+							<dt><%="感冒清热"%></dt>
+							<dd><%="999感冒灵"%></dd>
+							<dd><%="小柴胡颗粒"%></dd>
+							<dd><%="夏桑菊颗粒"%></dd>
+							
+						</dl>
+					</div>
+				</div>
+		<%}%>
+				
+	</script>
 </html>

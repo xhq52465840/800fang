@@ -6,6 +6,7 @@
     right: 0;
     top: 0;
     opacity: 0.8;
+    z-index: 999;
     .top{
            height: 44px;
     width: 22px;
@@ -58,6 +59,7 @@
 }
 .customerService{
 //  display: none;
+    z-index: 20;
     position: fixed;
     height: 204px;
     width: 270px;
@@ -97,7 +99,10 @@ img{
     right: 38px;
     top: 478px;
     display: none;
+    z-index: 20;
     .signin_1{
+    z-index: 20;
+        
         height: 50px;
         width: 270px;
         border-bottom: 1px dotted #DEDEDE;

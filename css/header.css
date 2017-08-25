@@ -169,7 +169,8 @@
   position: absolute;
   background-color: #0f5cb3;
   top: 295px;
-  left: 45px;
+  left: 37px;
+  z-index: 70;
 }
 .sort_list ul {
   width: 190px;
@@ -196,7 +197,7 @@
   display: none;
   left: 235px;
   top: 296px;
-  opacity: 0.78;
+  opacity: 0.85;
 }
 .detail_big .sort-detail-list {
   padding-left: 50px;
