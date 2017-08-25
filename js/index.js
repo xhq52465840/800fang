@@ -25,7 +25,7 @@ require(["config"],function(){
 			var html = arttemplate("mainitem",{list:data})
 		$(html).appendTo(".discount")
 		})
-		var _html = arttemplate("discount",{list:4});
+		var _html = arttemplate("discount",{list:6});
 		console.log(_html);
 		$(_html).appendTo(".cate-list")
 		

@@ -101,16 +101,18 @@
 .cate-list {
   height: 298px;
   background: deepskyblue; }
-  .cate-list:first-child {
-    margin-left: -53px; }
   .cate-list .cate-item {
-    width: 390px;
+    width: 382px;
     margin-top: 10px;
     margin-left: 10px;
     padding-top: 10px;
     background-color: #fafafa;
     height: 139px;
-    float: left; }
+    float: left; 
+    }
+  .cate-list .cate-item:nth-child(1){
+  	margin-left: -53px;
+    }
     .cate-list .cate-item .cate-item-header {
       font-weight: 700;
       line-height: 12px;
