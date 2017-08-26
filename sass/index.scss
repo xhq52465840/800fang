@@ -114,19 +114,21 @@
     }
 }
 .cate-list {
-    height: 298px;
-    background: deepskyblue;
-    &:first-child{
+    height: 298px; //  background:deeppink; 
+    &:first-child {
         margin-left: -53px;
     }
     .cate-item {
-        width: 390px;
+        float: left;
+        &:first-child {
+            margin-left: -53px;
+        }
+        width: 385px;
         margin-top: 10px;
         margin-left: 10px;
         padding-top: 10px;
         background-color: #fafafa;
         height: 139px;
-        float:left;
         .cate-item-header {
             font-weight: 700;
             line-height: 12px;
@@ -143,21 +145,145 @@
             height: 16px;
             margin-bottom: 16px;
             padding-left: 11px;
-            dt{
+            dt {
                 float: left;
-               
             }
-             dd{
-//                  width: 56px;
-                    float: left;
-                    margin-left: 10px;
-                    line-height: 21px;
-                       text-decoration: none;
-                    color: #868686;
-                    &:hover{
-                        color: red;
+            dd {
+                //                  width: 56px;
+                float: left;
+                margin-left: 10px;
+                line-height: 21px;
+                text-decoration: none;
+                color: #868686;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}
+.banner0 {
+    width: 100%;
+    height: 90px;
+    .banner {
+        width: 1190px;
+        height: 90px;
+        margin: 31px auto 0;
+    }
+}
+.main-floor-box0 {
+    width: 100%;
+    height: 571px;
+    .main-floor-box {
+        height: 571px;
+        width: 1190px;
+        margin: 31px auto 0;
+        padding-bottom: 15px;
+        .floor-header {
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            height: 25px;
+            padding-bottom: 9px;
+            border-bottom: 2px solid #1461b6;
+            .floor-rec-list {
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                right: -8px;
+                overflow: hidden;
+                height: 23px;
+                padding-top: 2px;
+                a {
+                    line-height: 12px;
+                    display: inline-block;
+                    height: 14px;
+                    padding: 0 10px;
+                    text-decoration: none;
+                    color: #b7b7b7;
+                    border-right: 1px solid #b7b7b7;
+                    &:hover {
+                        color: #E6186F;
                     }
                 }
+            }
+            p {
+                float: left;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                height: 13px;
+                padding-left: 1px;
+                color: #222;
+            }
+        }
+    }
+}
+.floor-side {
+    float: left;
+    width: 190px;
+    height: 100%; //  margin-left: -100%;
+    .floor-side-img {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        width: 100%;
+        height: 360px;
+    }
+    .floor-side-list {
+        width: 191px;
+        margin-left: -1px;
+        a {
+            line-height: 39px;
+            display: block;
+            float: left;
+            width: 94px;
+            height: 39px;
+            margin-bottom: 1px;
+            margin-left: 1px;
+            text-align: center;
+            text-decoration: none;
+            color: #666;
+            background-color: #f7f7f7;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            &:hover {
+                color: #E6186F;
+            }
+        }
+    }
+}
+.floo-main-img {
+    margin-left: 8px;
+    margin-right: 8px;
+    float: left;
+}
+.floor-exara {
+    float: left;
+    width: 669px;
+    height: 520px;
+    padding-top: 41px;
+    border-left: 1px solid #efefef;
+    ul{
+        list-style: none;
+        width: 669px;
+    height: 520px;
+    padding-left: 0;
+    }
+    .floor-exara-item {
+        position: relative;
+        z-index: 1;
+        float: left;
+        width: 223px;
+        height: 239px;
+        padding: 20px 32px 0;
+        border-right: 1px solid #efefef;
+        border-bottom: 1px solid #efefef;
+        background-color: #fff;
+        p{
+            height: 6px;
+            font-size: 14px;
         }
     }
 }

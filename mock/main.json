@@ -1,0 +1,50 @@
+[
+	{
+		"banner":{
+			"src":"img/index/banner.jpg"
+			},
+		"floorone":{
+			"src":"img/index/one.jpg"
+		},
+		"floortwo":{
+			"src":"img/index/two.jpg"
+		},
+		"floorthree":{
+			"src":"img/index/three.jpg"
+		}
+		
+	
+	},	{
+		"banner":{
+			"src":"img/index/banner0.jpg"
+			},
+		"floorone":{
+			"src":"img/index/one0.jpg"
+		},
+		"floortwo":{
+			"src":"img/index/two0.jpg"
+		},
+		"floorthree":{
+			"src":"img/index/three0.jpg"
+		}
+		
+	
+	},
+		{
+		"banner":{
+			"src":"img/index/banner1.jpg"
+			},
+		"floorone":{
+			"src":"img/index/one1.jpg"
+		},
+		"floortwo":{
+			"src":"img/index/two1.jpg"
+		},
+		"floorthree":{
+			"src":"img/index/three1.jpg"
+		}
+		
+	
+	}
+	
+]
