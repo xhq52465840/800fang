@@ -1,0 +1,105 @@
+	<script type="text/html" id="maizn">
+		<%for(var i = 0;i<list.length;i++){
+			var prod = list[i];
+			%>
+		<div class="banner0">
+		<div class="banner">
+			<img class="banner_img" src=<%=prod.banner.src%>/>
+		</div>
+	</div>
+	<div class="main-floor-box0">
+		<div class="main-floor-box">
+			<div class="floor-header">
+		<p><i class="glyphicon glyphicon-star" style="color: red;"></i><%="中西成药"%></p>
+				<div class="floor-rec-list">
+					<a><%="非那雄胺片"%></a>
+					<a><%="奥氮平片5mg*20片"%></a>
+					<a><%="金克槐耳颗粒"%></a>
+					<a><%="益安宁丸*112丸*3瓶/盒"%></a>
+					<a><%="复方阿胶浆"%></a>
+					<a><%="西黄丸"%></a>
+					<a><%="优甲乐"%></a>
+					<a><%="艾迪莎 5盒288 免运费"%></a>
+				</div>
+			</div>
+			<div class="floor-side">
+				<div class="floor-side-img">
+					<img src=<%=prod.floorone.src%>/>
+				</div>
+				<div class="floor-side-list">
+					<a><%="开同 复方α-酮酸片"%></a>
+					<a><%="脑蛋白水解物片"%></a>
+					<a><%="肾宝颗粒"%></a>
+					<a><%="素比伏"%></a>
+					<a><%="丹参益心胶囊*10盒"%></a>
+					<a><%="利必通 拉莫三嗪片*5盒"%></a>
+					<a><%="雷易得*11盒组合装"%></a>
+					<a><%="易倍申"%></a>
+				</div>
+			</div>
+			<div class="floo-main-img">
+				<img src=<%=prod.floortwo.src%>/>
+			</div>
+			<div class="floor-exara">
+				<ul>
+					<li class="floor-exara-item">
+						<p  style="color: #4d4d4d;"><%="和恩*20盒优惠装"%></p>
+						<p style="color: #9d9d9d;"><%="均价34.5盒 包邮"%></p>
+						<p class="pd-price">
+										<em style="color: #E6186F;"><%=690%></em>
+										<del><%=/900%></del>
+									</p>
+									<img src=<%=prod.three.src%>/>
+					</li>
+					<li class="floor-exara-item">
+						<p  style="color: #4d4d4d;"><%="和恩*20盒优惠装"%></p>
+						<p style="color: #9d9d9d;"><%="均价34.5盒 包邮"%></p>
+						<p class="pd-price">
+										<em style="color: #E6186F;"><%=690%></em>
+										<del><%=/900%></del>
+									</p>
+									<img src=<%=prod.three.src%>/>
+					</li>
+					<li class="floor-exara-item">
+						<p  style="color: #4d4d4d;"><%="和恩*20盒优惠装"%></p>
+						<p style="color: #9d9d9d;"><%="均价34.5盒 包邮"%></p>
+						<p class="pd-price">
+										<em style="color: #E6186F;"><%=690%></em>
+										<del><%=/900%></del>
+									</p>
+									<img src=<%=prod.three.src%>/>
+					</li>
+					<li class="floor-exara-item">
+						<p  style="color: #4d4d4d;"><%="和恩*20盒优惠装"%></p>
+						<p style="color: #9d9d9d;"><%="均价34.5盒 包邮"%></p>
+						<p class="pd-price">
+										<em style="color: #E6186F;"><%=690%></em>
+										<del><%=/900%></del>
+									</p>
+									<img src=<%=prod.three.src%>/>
+					</li>
+					<li class="floor-exara-item">
+						<p  style="color: #4d4d4d;"><%="和恩*20盒优惠装"%></p>
+						<p style="color: #9d9d9d;"><%="均价34.5盒 包邮"%></p>
+						<p class="pd-price">
+										<em style="color: #E6186F;"><%=690%></em>
+										<del><%=/900%></del>
+									</p>
+									<img src=<%=prod.three.src%>/>
+					</li>
+					<li class="floor-exara-item">
+						<p  style="color: #4d4d4d;"><%="和恩*20盒优惠装"%></p>
+						<p style="color: #9d9d9d;"><%="均价34.5盒 包邮"%></p>
+						<p class="pd-price">
+										<em style="color: #E6186F;"><%=690%></em>
+										<del><%=/900%></del>
+									</p>
+									<img src=<%=prod.three.src%>/>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+		<%}%>
+	</script>
