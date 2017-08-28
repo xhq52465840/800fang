@@ -1,0 +1,93 @@
+.footer-wrap0 {
+    p {
+    margin: 0 0 0px;
+}
+    width: 100%;
+    height: 350px;
+    .footer-wrap {
+        margin: 0 auto;
+        padding-bottom: 40px; //      width: 1190px;
+        height: 350px;
+        .ft-ensure-box {
+            height: 100px;
+            margin: 0 auto;
+            border-top: 2px solid #c2c2c2;
+            text-decoration: none;
+            .ensure-list {
+                list-style: none;
+                width: 1188px;
+                height: 100%;
+                margin: 0 auto;
+                padding: 0 1px;
+                .ensure-item {
+                    float: left;
+                    width: 197px;
+                    height: 50px;
+                    padding: 22px 0 28px;
+                    i {
+                        float: left;
+                        font-size: 46px;
+                        margin-right: 20px;
+                        color: #E6186F;
+                    }
+                    .ensure-tit {
+                        font-family: microsoft yahei;
+                        font-size: 16px;
+                        line-height: 28px;
+                        float: left;
+                        width: 130px;
+                        height: 28px;
+                        color: #1b1b1b;
+                    }
+                    .ensure-desp {
+                        font-family: microsoft yahei;
+                        line-height: 14px;
+                        float: left;
+                        width: 130px;
+                        height: 14px;
+                        color: #919191;
+                    }
+                }
+            }
+        }
+    }
+}
+.ft-link-box {
+    height: 118px;
+    margin: 0 auto;
+    padding: 26px 0 18px;
+    background-color: #1562b6;
+    .link-this {
+        width: 1190px;
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+        a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+            &:hover{
+                color: #E6186F;
+            }
+        }
+    }
+}
+.copyright {
+    font-size: 12px;
+    width: 1190px;
+    margin: 9px auto 0;
+    p {
+        text-align: center;
+        color: #85b6ff;
+        margin: 0px;
+        a {
+            margin: 0 3px;
+            text-decoration: none;
+            color: #85b6ff;
+        }
+    }
+}
+.ft-authentication-box {
+    margin-top: 32px;
+    text-align: center;
+}

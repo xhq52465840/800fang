@@ -1,0 +1,252 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+                margin: 0;
+                padding: 0;
+            }
+body,html{
+    margin:0;padding:0;
+    font-size: 12px;
+    height:100%;
+}
+ul,li,ol{
+    list-style: none;
+}
+h1{text-decoration: none;}
+a{ text-decoration: none;color: #000;}
+.da-banner {
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 4;
+    height: 100px;
+}
+.clearfix {
+    zoom: 1;
+}
+.logo {
+    float: left;
+    width: 280px;
+    height: 60px;
+    background: url(../img/index/logo.png) no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.da-login-bg {
+    background: #f9fbfd;
+    border-top: solid 1px #d8d8d8;
+}
+
+.da-login-index {
+    width: 1200px;
+    margin: 0 auto;
+    height: 660px;
+}
+.login-ct {
+    width: 390px;
+    height: 446px;
+    float: right;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    padding: 20px 30px;
+    margin-top: 45px;
+    margin-right: 80px;
+}
+.da-login-panel h2 {
+    line-height: 30px;
+    border-left: 3px solid #7d589d;
+    font-size: 16px;
+    font-weight: 400;
+    text-indent: 10px;
+    margin-bottom: 24px;
+}
+.da-login-panel .tabs {
+    width: 282px;
+    border-bottom: 1px solid #7d589d;
+    padding: 0 36px;
+    margin: 0 auto;
+    height: 28px;
+}
+.da-login-panel .tabs a {
+    display: block;
+    float: left;
+    height: 28px;
+    width: 69px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 36px;
+}
+.da-login-panel .tabs a.active {
+    background-image: url(../img/regist/login_arr.png);
+    background-position: 0 18px;
+    background-repeat: no-repeat;
+}
+.register-form {
+    margin: 28px 0 0 30px;
+    width: 320px;
+    font-size: 15px;
+}
+.da-login-panel .register-form .ctrl {
+    margin-bottom: 20px;
+}
+form .ctrl {
+    position: relative;
+}
+.login-sign {
+    width: 40px;
+    height: 38px;
+    display: block;
+    top: 1px;
+    left: 1px;
+    border-right: solid 1px #ccc;
+    position: absolute;
+}
+.ico-user {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 19px;
+    margin: 10px 0 0 10px;
+    background: url(../img/login/ico-login.png) -29px 0 no-repeat;
+}
+.da-login-panel .register-form input {
+    width: 265px;
+    height: 40px;
+    padding-left: 55px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.ico-password{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 19px;
+    margin: 10px 0 0 10px;
+    background: url(../img/login/ico-login.png) -29px -27px no-repeat;
+}
+.da-login-panel .register-form .verify {
+    width: 204px;
+    margin-right: 16px;
+}
+ .da-login-panel .register-form .captcha {
+    float: right;
+    width: 100px;
+        height: 35px;
+    margin-top: 1px;
+    border: 1px solid #666666;
+    
+}
+.ico-msgcode {
+    background:url(../img/login/ico-login.png) -29px -56px no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 23px;
+    margin: 8px 0 0 10px;
+}
+.da-login-panel .register-form .sms{
+        width: 204px;
+        margin-right: 16px;
+}
+.da-login-panel .register-form button {
+    float: right;
+    background: #94d469;
+    border: none;
+    width: 100px;
+//  height: 28px;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+//  margin-top: 7px;
+        height: 35px;
+    margin-top: 1px;
+}
+ .da-login-panel .register-form .resent {
+    display: none;
+    background: #e5e5e5;
+    color: #999;
+    }
+ .da-login-panel .register-form .ctrl1 {
+    margin-bottom: 0;
+}
+.da-login-panel .register-form input {
+    width: 265px;
+    height: 40px;
+    padding-left: 55px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+}
+.da-login-panel .register-form input {
+    width: 265px;
+    height: 36px;
+    padding-left: 55px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+}
+.da-login-panel .register-form .ctrl p {
+    margin-top: 6px;
+    color: #a00;
+}
+ .da-login-panel .register-form .Agreement {
+    font-size: 12px;
+}
+ .da-login-panel .register-form .Agreement input {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    float: left;
+}
+.da-login-panel .register-form .Agreement a {
+    color: #00F;
+}
+ .da-login-panel .register-form .dispabled {
+    background: #ccc;
+}
+.da-login-panel .register-form .submit-btn {
+/*    background: #e14958;*/
+    width: 320px;
+    height: 40px;
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 0;
+}
+form .ctrl label.error, form .form-error {
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 0 10px;
+    white-space: nowrap;
+    bottom: -38px;
+    font-size: 12px!important;
+}
+form .ctrl label.error {
+    position: absolute;
+    display: none;
+    background: rgba(0,0,0,.75);
+    filter: alpha(opacity=75);
+    border-radius: 3px;
+    z-index: 10;
+    left: 6px;
+    height: 30px;
+    border: none!important;
+}
+.detail_big{
+    top: 204px;
+}
+.sort_list{
+    top: 203px;
+}
+.da-login-panel .register-form input {
+    width: 265px;
+    height: 40px;
+    padding-left: 55px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+}
+/******************footer******************/

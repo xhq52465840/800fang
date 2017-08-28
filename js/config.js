@@ -7,6 +7,7 @@ require.config({
 		"arttemplate":"lib/arttemplate/template-native",
 		"load":"js/loadheaderfooternav",
 		"lunbo":"js/js",
-		"tool":"js/tools"
+		"tool":"js/tools",
+		"regist":"js/regist"
 	}
 })

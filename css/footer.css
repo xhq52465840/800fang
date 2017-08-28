@@ -1,0 +1,81 @@
+.footer-wrap0 {
+  width: 100%;
+  height: 350px; }
+  .footer-wrap0 p {
+    margin: 0 0 0px; }
+  .footer-wrap0 .footer-wrap {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    height: 350px; }
+    .footer-wrap0 .footer-wrap .ft-ensure-box {
+      height: 100px;
+      margin: 0 auto;
+      border-top: 2px solid #c2c2c2;
+      text-decoration: none; }
+      .footer-wrap0 .footer-wrap .ft-ensure-box .ensure-list {
+        list-style: none;
+        width: 1188px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 1px; }
+        .footer-wrap0 .footer-wrap .ft-ensure-box .ensure-list .ensure-item {
+          float: left;
+          width: 197px;
+          height: 50px;
+          padding: 22px 0 28px; }
+          .footer-wrap0 .footer-wrap .ft-ensure-box .ensure-list .ensure-item i {
+            float: left;
+            font-size: 46px;
+            margin-right: 20px;
+            color: #E6186F; }
+          .footer-wrap0 .footer-wrap .ft-ensure-box .ensure-list .ensure-item .ensure-tit {
+            font-family: microsoft yahei;
+            font-size: 16px;
+            line-height: 28px;
+            float: left;
+            width: 130px;
+            height: 28px;
+            color: #1b1b1b; }
+          .footer-wrap0 .footer-wrap .ft-ensure-box .ensure-list .ensure-item .ensure-desp {
+            font-family: microsoft yahei;
+            line-height: 14px;
+            float: left;
+            width: 130px;
+            height: 14px;
+            color: #919191; }
+
+.ft-link-box {
+  height: 118px;
+  margin: 0 auto;
+  padding: 26px 0 18px;
+  background-color: #1562b6; }
+  .ft-link-box .link-this {
+    width: 1190px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center; }
+    .ft-link-box .link-this a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff; }
+      .ft-link-box .link-this a:hover {
+        color: #E6186F; }
+
+.copyright {
+  font-size: 12px;
+  width: 1190px;
+  margin: 9px auto 0; }
+  .copyright p {
+    text-align: center;
+    color: #85b6ff;
+    margin: 0px; }
+    .copyright p a {
+      margin: 0 3px;
+      text-decoration: none;
+      color: #85b6ff; }
+
+.ft-authentication-box {
+  margin-top: 32px;
+  text-align: center; }
+
+/*# sourceMappingURL=footer.css.map */

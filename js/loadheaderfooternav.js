@@ -4,6 +4,10 @@ define(["jquery"],function($){
 		url:"/html/common/nav.html",
 		success:function(data){
 			$(data).appendTo(".nav0")
+			$(".top").click(function(){
+				var _top = $(".top").offset().top;
+				$("html,body").animate({scrollTop:0},"slow")
+			})
 			$("p").eq(0).mouseenter(function(){
 				$(".shoppingCart").show("slow")
 			})
@@ -77,6 +81,15 @@ define(["jquery"],function($){
 			});
 			
 			}
+	});
+	$.ajax({
+		type:"get",
+		url:"/html/common/footer.html",
+		async:true,
+		success:function(data){
+			$(data).appendTo(".footer");
+			
+		}
 	});
 
 });
