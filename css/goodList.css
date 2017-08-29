@@ -70,11 +70,13 @@
 .bigall0 {
   width: 100%; }
   .bigall0 .bigall {
-    width: 1190px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-left: -24px;
+    width: 1268px; }
     .bigall0 .bigall ul {
       list-style: none; }
       .bigall0 .bigall ul li {
+        float: left;
         display: block;
         width: 283px;
         height: 398px;
@@ -96,12 +98,12 @@
           text-align: center;
           display: none; }
         .bigall0 .bigall ul li .search-img {
-          width: 283px;
+          width: 280px;
           height: 268px;
           display: block;
           position: relative;
           z-index: 1;
-          background: url("../img/goodList/14264762782338.jpg"); }
+          background-size: contain; }
         .bigall0 .bigall ul li .cover-img {
           background-position: center center;
           background-size: cover; }

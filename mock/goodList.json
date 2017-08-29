@@ -1,79 +1,56 @@
-//{
-//	"li1":{
-//		"src1":"url(../img/goodList/FA163E0C4D3EGBUG0E4C7NSBI44.jpg)",
-//		"src2":"url(../img/goodList/14266487224501.jpg)",
-//		"src3":"url(../img/goodList/FA163E0C4D3EGBPG1KKQSAN2V6O.jpg)",
-//		"src4":"url(../img/goodList/FA163E0BD2F9GB5F1N0CKJJ0DOS.jpg)",
-//		"src5":"url(../img/goodList/14259752709126.jpg)",
-//		"src6":"url(../img/goodList/14264751546795.jpg)",
-//		"src7":"url(../img/goodList/FA163E0C4D3EG7BN1CCHY5Z9UDD.jpg)",
-//		"src8":"url(../img/goodList/FA163E0C4D3EGARD0MCH85459HM.jpg)",
-//		"src9":"url(../img/goodList/14264762782338.jpg)",
-//		"src10":"url(../img/goodList/FA163E0C4D3EGARC4A4IE9GEDHN.jpg)",
-//		"src11":"url(../img/goodList/FA163E0BD2F9GBG61SKPPG4A43M.jpg)",
-//		"src12":"url(../img/goodList/FA163E0C4D3EGBG63JSJ113LIQH.jpg)",
-//		"src13":"url(../img/goodList/FA163E0C4D3EGBUG0E4C7NSBI44.jpg)",
-//		"src14":"url(../img/goodList/14266487224501.jpg)",
-//		"src15":"url(../img/goodList/FA163E0C4D3EGBPG1KKQSAN2V6O.jpg)",
-//		"src16":"url(../img/goodList/FA163E0BD2F9GB5F1N0CKJJ0DOS.jpg)",
-//		"src17":"url(../img/goodList/14259752709126.jpg)",
-//		"src18":"url(../img/goodList/14264751546795.jpg)",
-//		"src19":"url(../img/goodList/FA163E0C4D3EG7BN1CCHY5Z9UDD.jpg)",
-//		"src20":"url(../img/goodList/FA163E0C4D3EGARD0MCH85459HM.jpg)"
-//	}
-//}
+
 [
 	{	
 		"id":1,
 		"pricenow":"50",
-		"priceago":200,
+		"priceago":"200",
 		"src":"url(../img/goodList/FA163E0C4D3EGBUG0E4C7NSBI44.jpg)"
 		},
 		{
 		"id":2,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/14266487224501.jpg)"
 		
 		},
 		{
 		"id":3,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/FA163E0C4D3EGBPG1KKQSAN2V6O.jpg)"
 		
 		},
 		{
 		"id":4,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/FA163E0BD2F9GB5F1N0CKJJ0DOS.jpg)"	
 		},
 		{
 		"id":5,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/14259752709126.jpg)"
 		
 		},
 		{
 		"id":6,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/14264751546795.jpg)"
 		
 		},
 		{
 		"id":7,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/FA163E0C4D3EGARD0MCH85459HM.jpg)"
 		
 		},
 		{
 		"id":8,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/FA163E0C4D3EG7BN1CCHY5Z9UDD.jpg)"
 		
 		
@@ -81,14 +58,68 @@
 		{
 		"id":9,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/14264762782338.jpg)"
 		
 		},
 		{
 		"id":10,
 		"pricenow":"50",
-		"priceago":500,
+		"priceago":"500",
 		"src":"url(../img/goodList/FA163E0C4D3EGARC4A4IE9GEDHN.jpg)"
+		},{	
+		"id":1,
+		"pricenow":"50",
+		"priceago":"200",
+		"src":"url(../img/goodList/FA163E0C4D3EGBUG0E4C7NSBI44.jpg)"
+		},
+		{
+		"id":2,
+		"pricenow":"50",
+		"priceago":"500",
+		"src":"url(../img/goodList/14266487224501.jpg)"
+		
+		},
+		{
+		"id":3,
+		"pricenow":"50",
+		"priceago":"500",
+		"src":"url(../img/goodList/FA163E0C4D3EGBPG1KKQSAN2V6O.jpg)"
+		
+		},
+		{
+		"id":4,
+		"pricenow":"50",
+		"priceago":"500",
+		"src":"url(../img/goodList/FA163E0BD2F9GB5F1N0CKJJ0DOS.jpg)"	
+		},
+		{
+		"id":5,
+		"pricenow":"50",
+		"priceago":"500",
+		"src":"url(../img/goodList/14259752709126.jpg)"
+		
+		},
+		{
+		"id":6,
+		"pricenow":"50",
+		"priceago":"500",
+		"src":"url(../img/goodList/14264751546795.jpg)"
+		
+		},
+		{
+		"id":7,
+		"pricenow":"50",
+		"priceago":"500",
+		"src":"url(../img/goodList/FA163E0C4D3EGARD0MCH85459HM.jpg)"
+		
+		},
+		{
+		"id":8,
+		"pricenow":"50",
+		"priceago":"500",
+		"src":"url(../img/goodList/FA163E0C4D3EG7BN1CCHY5Z9UDD.jpg)"
+		
+		
 		}
 ]
