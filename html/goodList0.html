@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="../css/header.css" />
+		<link rel="stylesheet" type="text/css" href="../css/nav.css" />
+		<link rel="stylesheet" type="text/css" href="../css/goodList.css" />
+		<script type="text/javascript" src="../lib/requirejs/require.js" data-main="/js/goodList0"></script>
+	</head>
+
+	<body>
+		<div class="nav0">
+
+		</div>
+		<div class="header0">
+
+		</div>
+		<div class="search-link0">
+	
+		<div class="search-link ">
+			<ul>
+				<li>
+					
+					<span class="icon-to"></span>
+				</li>
+				<li>
+					<a href="/"><span class="glyphicon glyphicon-home" style="float: left;position: absolute;top: 236px;"></span></a>
+					<span style="margin-left: 66px">搜索: 男科</span>
+				</li>
+			</ul>
+		</div>
+				
+		</div>
+		<div class="select-inner0">
+			<div class="select-inner">
+				<span><a>价格：</a></span>
+				<a>0-50</a>
+				<a>50-100</a>
+				<a>100-500</a>
+				<a>500-1000</a>
+				<i>+多选</i>
+			</div>
+		</div>
+		<div class="sort0">
+			<div class="sort">
+				<span><a>排序方式:</a></span>
+				<a><i class="glyphicon glyphicon-chevron-down">默认</i></a>
+				<a><i class="glyphicon glyphicon-chevron-down">价格</i></a>
+				<a><i class="glyphicon glyphicon-chevron-down">销量</i></a>
+				<a><i class="glyphicon glyphicon-chevron-down">人气</i></a>
+				
+			</div>
+		</div>
+		<div class="bigall0">
+			<div class="bigall">
+				<ul class="">
+					 <!--<li>
+    				<a href="goodDetail.html" class="search-img">
+    					<div class="search-img cover-img">
+    						
+    					</div>
+    					<div class="sign"></div>
+    					<div class="bgoption">
+    						加入购物车
+    						<span class="ico-g-cart"></span>
+    					</div>
+    					
+    				</a>
+    				<div class="data">
+    					<p class="price">
+                        <span class="rede1">¥</span><span class="now-price">68.00</span>
+                        <span class="old-price">¥118.00</span></p>
+                        <p class="title">
+                        <span class="discount">5.8折/</span><span class="rede1"></span>
+                        <a href="goodDetail.html" target="_blank">
+                        [ · 文艺简约小清新]
+                    			    钢铁老爷
+                                                   	泰国清迈莲花项链锁骨链(银色)
+                                                <!--泰国清迈莲花项链锁骨链(银色)-->
+                        <!--</a>
+                    </p>
+                    <p class="function">54人收藏<span class="line">|</span>0条评论</p>
+    				</div>
+    			</li>-->
+				</ul>
+			</div>
+		</div>
+		<div class="footer" style="float: left;">
+
+		</div>
+	</body>
+	<script type="text/html" id="goodList">
+		<%for(var i = 0;i<list.length;i++){
+			var prod = list[i];
+			%>	
+			<li>
+    				<a href="goodDetail.html" class="search-img">
+    					<div class="search-img cover-img">
+    					</div>
+    					<div class="sign"></div>
+    					<div class="bgoption">
+    						<%="加入购物车"%>
+    						<span class="ico-g-cart"></span>
+    					</div>
+    					
+    				</a>
+    				<div class="data">
+    					<p class="price">
+                        <span class="rede1"><%="¥"%></span><span class="now-price"><%=prod.pricenow%></span>
+                        <span class="old-price"><%=prod.priceago%></span></p>
+                        <p class="title">
+                        <span class="discount"><%="5.8折/"%></span><span class="rede1"></span>
+                        <a href="goodDetail.html" target="_blank">
+                      <%= " [ · 文艺简约小清新]    钢铁老爷	泰国清迈莲花项链锁骨链(银色)"%>
+                        </a>
+                    </p>
+                    <p class="function"><%="54人收藏"%><span class="line"><%="|"%></span><%="0条评论"%></p>
+    				</div>
+    			</li>
+    			<%}%>
+	</script>
+
+</html>

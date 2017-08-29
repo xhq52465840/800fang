@@ -9,8 +9,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/nav.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/regist.css"/>
 	</head>
+	<!--<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>-->
 		<script type="text/javascript" src="../lib/requirejs/require.js" data-main = "/js/regist0"></script>
-	
+		<!--<script type="text/javascript" src="../js/getcode.js" ></script>-->
 	<body>
 		<div class="nav0">
 			
@@ -34,15 +35,16 @@
 				            <input type="text" name="mobile" class="mobile" placeholder="请输入您的手机号码">
 				            <label id="mobile-error" class="error" for="mobile" ></label>
 				        </div>
-				        <div class="ctrl">
+				        <!--<div class="ctrl">
 				            <span class="login-sign"><span class="ico-password"></span></span>
 				            <input type="text" name="validate" class="verify" placeholder="请输入验证码">
 				           <img src="" id="gen_code" title="点击刷新">
-				        </div>
+				        </div>-->
 				        <div class="ctrl">
 				            <span class="login-sign"><span class="ico-msgcode"></span></span>
 				            <input type="text" name="code" class="sms" placeholder="请输入短信验证码">
-				            <button type="button" id="getcode" data-send-code="">获取验证码</button>
+				            <button type="button" id="getcode" data-send-code="" value="获取验证码">获取验证码
+				            </button>
 				            <button type="button" class="resent" data-resent="">获取验证码(<span class="timer"></span>)</button>
 				        </div>
 				        <div class="ctrl ctrl1">

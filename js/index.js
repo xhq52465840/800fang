@@ -5,6 +5,9 @@ require(["config"],function(){
 	require(["tool","lunbo"],function(){
 		
 	}),
+	require(["jquery","cookie"],function(){
+		console.log($.cookie("username"))
+	}),
 	require(["jquery","arttemplate"],function($,arttemplate){
 		$(function(){
 			// 获取窗口高度
@@ -106,7 +109,7 @@ require(["config"],function(){
 //		console.log(_html);
 		$(_html).appendTo(".cate-list")
 		
-	})
+})
 })
 //require(["config"],function(){
 //	require(["jquery"],function($){

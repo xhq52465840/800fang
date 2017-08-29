@@ -1,4 +1,4 @@
-define(["jquery"],function($){
+define(["jquery","cookie"],function($){
 	$.ajax({
 		type:"get",
 		url:"/html/common/nav.html",
@@ -56,6 +56,22 @@ define(["jquery"],function($){
 				$(".sort_list").hide();
 				$(".detail_big").hide()
 				
+			})
+			if ($.cookie("username")) {
+				$("#loginIn").html($.cookie("username").slice(1,12))
+				$("#registIn").html("")
+//				$("#loginIn0").html($.cookie("username").slice(1,12))
+				$("#loginIn0").html("")
+				$(".signin p").html($.cookie("username").slice(1,12));
+				$(".sigin_1").hide()
+				
+			}
+
+			$("#loginIn").click(function(){
+				location.href="html/login0.html"
+			})
+			$("#registIn").click(function(){
+				location.href = "html/regist0.html"
 			})
 			$(".sort_list li").mouseenter(function(){
 				$(this).siblings().css({

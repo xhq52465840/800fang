@@ -4,7 +4,7 @@ require(["config"],function(){
 //			
 //		})
 	}),
-	require(["jquery","regist"],function(){
+	require(["jquery","login"],function(){
 		
 	}),
 	require(["jquery","cookie"],function(){

@@ -4,7 +4,7 @@ define(["jquery"], function($) {
 		$(".da-login-index").css("background", result.background)
 	})
 	$(".tabs .login").click(function() {
-			location.href = "login.html"
+			location.href = "login0.html"
 		})
 		// function createCode(){
 		//      var code = '';
@@ -68,7 +68,7 @@ define(["jquery"], function($) {
 		$(".ctrl1 .ico-password").css("background", "url(../img/regist/ico-login.png) -29px -27px no-repeat")
 
 		var _code = $(this).val();
-		
+
 		$.ajax({
 			type: "get",
 			url: "http://route.showapi.com/932-1",
@@ -80,26 +80,27 @@ define(["jquery"], function($) {
 			},
 			dataType: "json",
 			success: function(data) {
-//				console.log(_code);
-//				console.log(data.showapi_res_body.valid);
+				//				console.log(_code);
+				//				console.log(data.showapi_res_body.valid);
 				if (data.showapi_res_body.valid) {
 					$(".da-login-panel .register-form .ctrl p").html("")
 					return true;
-				} else{
+				} else {
 					$(".da-login-panel .register-form .ctrl p").html("*验证码输入错误")
-					alert("aaa")
-					
+						//					alert("aaa")
+
 					return false;
-//					alert("aaa")
+					//					alert("aaa")
 
 				}
 			}
 		});
 		if (_code == "") {
-//			$(".da-login-panel .register-form .ctrl p").html("*请输入验证码")
+			$(".da-login-panel .register-form .ctrl p").html("*请输入验证码")
 			return false;
 		}
 	})
+
 	$(".mobile").focus(function() {
 		$(this).css({
 			"border": "1px solid #94d469",
@@ -200,36 +201,48 @@ define(["jquery"], function($) {
 			$(".ico-msgcode").css("background", "url(../img/regist/ico-login.png) -29px -56px no-repeat")
 		})
 		//console.log($(".checkbox")[0].checked)
-	$(".checkbox").click(function() {
-		if ($(".checkbox")[0].checked) {
+		$(".checkbox").click(function(){
+			if ($(".checkbox")[0].checked&& $(".mobile").blur() && $(".password").blur()) {
 			$(".submit-btn").css("background", "#e14958")
 			$(".submit-btn").css("cursor", "pointer")
-			$(".submit-btn").click(function() {
-				if ($(".checkbox")[0].checked && $(".mobile").blur() && $(".password").blur() && $(".verify").blur) {
-					location.href = "login.html"
-					var value = $(".mobile").val();
-					var value1 = $(".password").val();
-					$.cookie("userName", value, {
-						expires: 7,
-						path: "/"
-					})
-					$.cookie("passWord", value1, {
-						expires: 7,
-						path: "/"
-					})
-				} else {
-					return false;
-				}
+			$(".submit-btn").click(function(){
+				location.href = "login0.html"
 			})
-		} else {
-			$(".submit-btn").css("background", "#ccc")
-			$(".submit-btn").css("cursor", "default")
-
-		}
-	})
-	$("#getcode").click(function(e) {
-			e.stopPropagation();
+			}
+			$.cookie.json = true;
+			$.cookie("username",$(".mobile").val(),{Domain:"../",path:"/",expires:10});
+			$.cookie("password",$(".password").val(),{Domain:"../",path:"/",expires:10})
 		})
+//	$(".checkbox").click(function() {
+//		if ($(".checkbox")[0].checked) {
+//			$(".submit-btn").css("background", "#e14958")
+//			$(".submit-btn").css("cursor", "pointer")
+//			$(".submit-btn").click(function() {
+//				if ($(".checkbox")[0].checked && $(".mobile").blur() && $(".password").blur() && $(".verify").blur) {
+//					location.href = "login.html"
+//					var value = $(".mobile").val();
+//					var value1 = $(".password").val();
+//					$.cookie("userName", value, {
+//						expires: 7,
+//						path: "/"
+//					})
+//					$.cookie("passWord", value1, {
+//						expires: 7,
+//						path: "/"
+//					})
+//				} else {
+//					return false;
+//				}
+//			})
+//		} else {
+//			$(".submit-btn").css("background", "#ccc")
+//			$(".submit-btn").css("cursor", "default")
+//
+//		}
+//	})
+//	$("#getcode").click(function(e) {
+//			e.stopPropagation();
+//		})
 		//$(".submit-btn").click(function(){
 		//
 		////	console.log($.cookie("userName"));

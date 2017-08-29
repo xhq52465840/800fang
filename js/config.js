@@ -3,11 +3,12 @@ require.config({
 	baseUrl:"/",
 	paths:{
 		"jquery":"lib/jquery/jquery-1.12.4.min",
-		"cookie":"lib/jquery/_plugins/jquery.cookie",
+		"cookie":"lib/jquery_plugins/jquery.cookie",
 		"arttemplate":"lib/arttemplate/template-native",
 		"load":"js/loadheaderfooternav",
 		"lunbo":"js/js",
 		"tool":"js/tools",
-		"regist":"js/regist"
+		"regist":"js/regist",
+		"login":"js/login"
 	}
 })
