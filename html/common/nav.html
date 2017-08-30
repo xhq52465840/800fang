@@ -1,47 +1,76 @@
-
-	<div class="nav" style="padding-left: 9px;">
-		<i class="glyphicon glyphicon-calendar text-center" style="font-size: 19px;color: white;  margin-top: 200px;margin-bottom: 10px;">
+<div class="nav" style="padding-left: 9px;">
+	<i class="glyphicon glyphicon-calendar text-center" style="font-size: 19px;color: white;  margin-top: 200px;margin-bottom: 10px;">
 		
 		</i>
-	<p style="font-size: 19px;color: white;width: 20px; border-bottom: 1px solid white;padding-bottom: 10px;" class="text-center">购物车</p>
+	<p style="font-size: 19px;color: white;width: 20px; border-bottom: 1px solid white;padding-bottom: 10px;" class="text-center">购物车<span id="bomm" style="color: red;background:none;border: none;">0</span></p>
 	<span id="count"></span>
 
-	<i class="glyphicon glyphicon-headphones"style="font-size: 19px;color: white; margin-bottom: 10px;    margin-top: 15px;"> </i>
+	<i class="glyphicon glyphicon-headphones" style="font-size: 19px;color: white; margin-bottom: 10px;    margin-top: 15px;"> </i>
 	<p style="font-size: 19px;color: white;width: 20px; border-bottom: 1px solid white;padding-bottom: 10px;" class="text-center">客户咨询</p>
-	<i class="glyphicon glyphicon-user"style="font-size: 19px;color: white; margin-bottom: 10px;    margin-top: 15px;"></i>
+	<i class="glyphicon glyphicon-user" style="font-size: 19px;color: white; margin-bottom: 10px;    margin-top: 15px;"></i>
 	<p id="loginIn0" style="font-size: 19px;color: white;width: 20px; border-bottom: 1px solid white;padding-bottom: 10px;" class="text-center">登录</p>
 	<div class="top">
 		<i class="glyphicon glyphicon-chevron-up"></i>
 		<span>top</span>
 	</div>
+</div>
+<div class="shoppingCart">
+	<div class="cfb-title-box">
+		<i class="glyphicon glyphicon-calendar" style="font-size: 20px;display: block;float: left;margin-right: 10px;"></i>
+		<p>购物车</p>
+
 	</div>
-	<div class="shoppingCart">
-		<div class="cfb-title-box">
-                            <i class="glyphicon glyphicon-calendar" style="font-size: 20px;display: block;float: left;margin-right: 10px;"></i>
-                            <p>购物车</p>
-                           
-                        </div>
-           <ul>
-                            	<li style="text-align: center;">购物车为空</li>
-                            </ul>
-                           <p style="float: left;">共<span>0</span>件商品  共计￥<span id="price">0.00</span></p>
-                           <button type="button" class="btn btn-success" style="    float: right;
+	<ul>
+		<li style="text-align: center;">购物车为空</li>
+		<li>
+		<input type="checkbox" name="ck" class="goodckb goods-check" value=""  style="float: left;"/>
+			
+			<div>商品名</div><div>数量</div><div>价格</div><div>小计</div></li>
+		
+		<!--<li>
+			<input type="checkbox" name="ck" id="ck" value="" style="float: left;" />
+			<div style="height: 27px;width: 27px; background-image: url(../../img/goodList/14264762782338.jpg);background-size: cover; float: left;margin-right: 11px;"></div>
+				<input type="number" min="1"  style="height: 27px;width: 26px;margin-left: 10px;text-align: center;margin-right: 10px;"/>
+			<span id="goodprice">
+				20
+			</span>
+			<span id="goodprice0" style="margin-left: 15px;">40</span>
+		</li>-->
+	</ul>
+	<p style="float: left;">共<span id="lala">0</span>件商品 共计￥<span id="price">0.00</span></p>
+	<button type="button" class="btn btn-success boooo" style="    float: right;
     margin-right: 23px;">去结算</button>
+</div>
+<div class="customerService">
+	<div class="customerService_title">
+		<i class="glyphicon glyphicon-hand-right" style="float: left;font-size: 19px;margin-right: 10px;"></i>
+		<p>客服</p>
 	</div>
-	<div class="customerService">
-		<div class="customerService_title">
-			<i class="glyphicon glyphicon-hand-right" style="float: left;font-size: 19px;margin-right: 10px;"></i>
-			<p>客服</p>
-		</div>
-		<img src="../../img/index/0.jpg"/>
-		<p>微信扫码</p>
-		<p>立减5元</p>
+	<img src="../../img/index/0.jpg" />
+	<p>微信扫码</p>
+	<p>立减5元</p>
+</div>
+<div class="signin">
+	<div class="signin_1">
+		<i class="glyphicon glyphicon-user" style="font-size: 15px;"></i>
+		<button type="button" class="btn btn-info btn-default btn-xs">登录</button>
+		<button type="button" class="btn btn-info btn-default btn-xs">注册</button>
 	</div>
-	<div class="signin">
-		<div class="signin_1">
-			<i class="glyphicon glyphicon-user" style="font-size: 15px;"></i>
-			<button type="button" class="btn btn-info btn-default btn-xs">登录</button>
-			<button type="button" class="btn btn-info btn-default btn-xs">注册</button>
-		</div>
-		<p>注册就送150元超级豪华套餐</p>
-	</div>
+	<p>注册就送150元超级豪华套餐</p>
+</div>
+<script type="text/html" id="goodproduct">
+	<% 
+			for (var i = 0, len = products.length; i < len; i++) {
+				var prod = products[i];
+		%>
+	<li>
+			<input type="checkbox" name="ck" id="ck" value="" style="float: left;" />
+			<div style="height: 27px;width: 27px; background-image:<%=prod.imgSrc%>;background-size: cover; float: left;margin-right: 11px;"></div>
+				<input type="number" min="1"  style="height: 27px;width: 26px;margin-left: 10px;text-align: center;margin-right: 10px;"/>
+			<span id="goodprice">
+				<%=prod.price%>
+			</span>
+			<span id="goodprice0" style="margin-left: <%=15px%>;"><%= prod.price * prod.amount %></span>
+		</li>
+			<% } %>
+</script>

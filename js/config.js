@@ -9,6 +9,7 @@ require.config({
 		"lunbo":"js/js",
 		"tool":"js/tools",
 		"regist":"js/regist",
-		"login":"js/login"
+		"login":"js/login",
+		"fangdajing":"lib/jquery/jquery.imagezoom.min"
 	}
 })

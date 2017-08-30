@@ -98,10 +98,10 @@
 			var prod = list[i];
 			%>	
 			<li>
-    				<a href="goodDetail.html" class="search-img">
-    					<div class="search-img cover-img"style="background-image: <%=prod.src%>;">
+    				<a href="###" class="search-img">
+    					<div class="search-img cover-img" style="background-image: <%=prod.src%>;">
     					</div>
-    					<div class="sign"></div>
+    					<div class="sign" style="opacity: 0.1;"><%=prod.id%></div>
     					<div class="bgoption">
     						<%="加入购物车"%>
     						<span class="ico-g-cart"></span>
@@ -110,8 +110,8 @@
     				</a>
     				<div class="data">
     					<p class="price">
-                        <span class="rede1"><%="¥"%></span><span class="now-price"><%=prod.pricenow%></span>
-                        <span class="old-price"><%=prod.priceago%></span></p>
+                        <span class="rede1" style="color: red;font-size: 20px;"><%="¥"%></span><span class="now-price" style="color: red;font-size: 17px;font-style: italic;"><%=prod.pricenow%></span>
+                        <span class="old-price"><%="/"+prod.priceago%></span></p>
                         <p class="title">
                         <span class="discount"><%="5.8折/"%></span><span class="rede1"></span>
                         <a href="goodDetail.html" target="_blank">
