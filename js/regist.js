@@ -86,8 +86,8 @@ define(["jquery"], function($) {
 					$(".da-login-panel .register-form .ctrl p").html("")
 					return true;
 				} else {
-					$(".da-login-panel .register-form .ctrl p").html("*验证码输入错误")
-						//					alert("aaa")
+					//					$(".da-login-panel .register-form .ctrl p").html("*验证码输入错误")
+					//					alert("aaa")
 
 					return false;
 					//					alert("aaa")
@@ -191,58 +191,79 @@ define(["jquery"], function($) {
 
 	})
 	$(".sms").blur(function() {
-			$(this).css({
-				"border": "1px solid #ccc",
-				"outline": "none"
-			});
-			$(this).siblings(".login-sign").css({
-				"border-right": "1px solid #ccc",
-			})
-			$(".ico-msgcode").css("background", "url(../img/regist/ico-login.png) -29px -56px no-repeat")
+		$(this).css({
+			"border": "1px solid #ccc",
+			"outline": "none"
+		});
+		$(this).siblings(".login-sign").css({
+			"border-right": "1px solid #ccc",
+		})
+		$(".ico-msgcode").css("background", "url(../img/regist/ico-login.png) -29px -56px no-repeat")
+	})
+	var timer = 60
+	$("#getcode").click(function Countdown() {
+			if (timer >= 1) {
+				timer -= 1;
+				setTimeout(function() {
+					Countdown();
+				}, 1000);
+				$("#getcode").html("请在（"+timer+"秒）后输入验证码")
+			}else{
+				$("#getcode").html("重新发送验证码")
+				
+			}
 		})
 		//console.log($(".checkbox")[0].checked)
-		$(".checkbox").click(function(){
-			if ($(".checkbox")[0].checked&& $(".mobile").blur() && $(".password").blur()) {
-			$(".submit-btn").css("background", "#e14958")
-			$(".submit-btn").css("cursor", "pointer")
-			$(".submit-btn").click(function(){
-				location.href = "login0.html"
-			})
+	$(".checkbox").click(function() {
+			if ($(".checkbox")[0].checked && $(".mobile").blur() && $(".password").blur()) {
+				$(".submit-btn").css("background", "#e14958")
+				$(".submit-btn").css("cursor", "pointer")
+				$(".submit-btn").click(function() {
+					location.href = "login0.html"
+				})
 			}
 			$.cookie.json = true;
-			$.cookie("username",$(".mobile").val(),{Domain:"../",path:"/",expires:10});
-			$.cookie("password",$(".password").val(),{Domain:"../",path:"/",expires:10})
+			$.cookie("username", $(".mobile").val(), {
+				Domain: "../",
+				path: "/",
+				expires: 10
+			});
+			$.cookie("password", $(".password").val(), {
+				Domain: "../",
+				path: "/",
+				expires: 10
+			})
 		})
-//	$(".checkbox").click(function() {
-//		if ($(".checkbox")[0].checked) {
-//			$(".submit-btn").css("background", "#e14958")
-//			$(".submit-btn").css("cursor", "pointer")
-//			$(".submit-btn").click(function() {
-//				if ($(".checkbox")[0].checked && $(".mobile").blur() && $(".password").blur() && $(".verify").blur) {
-//					location.href = "login.html"
-//					var value = $(".mobile").val();
-//					var value1 = $(".password").val();
-//					$.cookie("userName", value, {
-//						expires: 7,
-//						path: "/"
-//					})
-//					$.cookie("passWord", value1, {
-//						expires: 7,
-//						path: "/"
-//					})
-//				} else {
-//					return false;
-//				}
-//			})
-//		} else {
-//			$(".submit-btn").css("background", "#ccc")
-//			$(".submit-btn").css("cursor", "default")
-//
-//		}
-//	})
-//	$("#getcode").click(function(e) {
-//			e.stopPropagation();
-//		})
+		//	$(".checkbox").click(function() {
+		//		if ($(".checkbox")[0].checked) {
+		//			$(".submit-btn").css("background", "#e14958")
+		//			$(".submit-btn").css("cursor", "pointer")
+		//			$(".submit-btn").click(function() {
+		//				if ($(".checkbox")[0].checked && $(".mobile").blur() && $(".password").blur() && $(".verify").blur) {
+		//					location.href = "login.html"
+		//					var value = $(".mobile").val();
+		//					var value1 = $(".password").val();
+		//					$.cookie("userName", value, {
+		//						expires: 7,
+		//						path: "/"
+		//					})
+		//					$.cookie("passWord", value1, {
+		//						expires: 7,
+		//						path: "/"
+		//					})
+		//				} else {
+		//					return false;
+		//				}
+		//			})
+		//		} else {
+		//			$(".submit-btn").css("background", "#ccc")
+		//			$(".submit-btn").css("cursor", "default")
+		//
+		//		}
+		//	})
+		//	$("#getcode").click(function(e) {
+		//			e.stopPropagation();
+		//		})
 		//$(".submit-btn").click(function(){
 		//
 		////	console.log($.cookie("userName"));

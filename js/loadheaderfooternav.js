@@ -1,8 +1,10 @@
 define(["jquery", "cookie", "arttemplate"], function($, arttemplate) {
+
 	$.ajax({
 		type: "get",
 		url: "/html/common/nav.html",
 		success: function(data) {
+
 			$(data).appendTo(".nav0")
 			$(".top").click(function() {
 				var _top = $(".top").offset().top;
@@ -28,11 +30,10 @@ define(["jquery", "cookie", "arttemplate"], function($, arttemplate) {
 						"</li>"
 				})
 				$(html0).appendTo($(".shoppingCart").children("ul"))
-//				document.getElementsByClassName("shoppingCart")[0].children[1].innerHTML += html0;
-				//				$(".goods-check").prop('checked',function(){
-				//					alert(111)
-				//				})
-				
+					//				document.getElementsByClassName("shoppingCart")[0].children[1].innerHTML += html0;
+					//				$(".goods-check").prop('checked',function(){
+					//					alert(111)
+					//				})
 
 				var _value0 = 0;
 				var _price0 = 0;
@@ -104,6 +105,10 @@ define(["jquery", "cookie", "arttemplate"], function($, arttemplate) {
 				$(".signin").hide("slow")
 
 			})
+			$(".pay").click(function() {
+
+				location.href = "/../html/shoppingcart.html"
+			})
 
 		}
 	})
@@ -112,6 +117,7 @@ define(["jquery", "cookie", "arttemplate"], function($, arttemplate) {
 		url: "/html/common/header.html",
 		async: true,
 		success: function(data) {
+			
 			$(data).appendTo(".header0");
 			$(".fullProducts").mouseenter(function() {
 				$(".sort_list").show("slow")
@@ -125,20 +131,28 @@ define(["jquery", "cookie", "arttemplate"], function($, arttemplate) {
 
 			})
 			if ($.cookie("username")) {
-				$("#loginIn").html($.cookie("username").slice(1, 12))
-				$("#registIn").html("")
+				$("#loginIn").html($.cookie("username").slice(0, 12))
+				$("#registIn").html("退出登录")
 					//				$("#loginIn0").html($.cookie("username").slice(1,12))
 				$("#loginIn0").html("")
-				$(".signin p").html($.cookie("username").slice(1, 12));
+				$(".signin p").html($.cookie("username").slice(0, 12));
 				$(".sigin_1").hide()
 
 			}
-
+			$("#indexHref").click(function(){
+				location.href="../index.html"
+			})
 			$("#loginIn").click(function() {
 				location.href = "html/login0.html"
-			})
+			})+
 			$("#registIn").click(function() {
 				location.href = "html/regist0.html"
+			})
+			$(".header0").delegate(".out", "click", function() {
+				location.href = "html/goodList0.html"
+			});
+			$(".detail_big").click(function(){
+				location.href = "html/goodList0.html"
 			})
 			$(".sort_list li").mouseenter(function() {
 				$(this).siblings().css({

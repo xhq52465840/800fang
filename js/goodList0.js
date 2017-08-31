@@ -40,8 +40,12 @@ $.ajax({
 				var _src = product.id
 //				console.log(_src);
 				var _price = product.price;
-				var _amount = product.amount
-				$.cookie.json = true; // 自动转换
+				var _amount = product.amount;
+				var _imgSrc = product.imgSrc
+				$.cookie.json = true; // 自动转换0
+				$.cookie("goodSrc",_imgSrc,{
+					expires:10
+				})
 				$.cookie("goodId", _src, {
 					expires: 10
 				});	
@@ -82,6 +86,21 @@ $.ajax({
 		})
 	}
 });
+$(window).on("scroll",function(){
+	  var st = $(this).scrollTop();
+if(st>500){
+	$(".header1_1").css({
+		position:"fixed",
+		top:"0px",
+		zIndex:"999",
+		background:"white"
+	})
+}else{
+	$(".header1_1").css({
+		position:"relative"
+	})
+}
+})
 $(".sort").children("a:even").click(function() {
 	$(this).siblings("a").css({
 		color: 'black'

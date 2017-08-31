@@ -12,8 +12,8 @@ $(".tabs .regist").click(function(){
  	$(".ico-user").css("background","url(../img/regist/ico-login.png) no-repeat")
 // 	console.log($.cookie("username").slice(1,12))
 if ($.cookie("username")&&$.cookie("password")) {
-	$(".mobile").val($.cookie("username").slice(1,12))
- 	$(".password").val($.cookie("password").slice(1,($.cookie("password").length-1)))
+	$(".mobile").val($.cookie("username").slice(0,12))
+ 	$(".password").val($.cookie("password").slice(0,($.cookie("password").length-1)))
 }
  	
   })

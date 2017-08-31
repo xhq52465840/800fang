@@ -77,7 +77,7 @@
 }
 
 #searchInput {
-  margin-left: 248px;
+  margin-left: 220px;
   font-family: microsoft yahei;
   font-size: 13px;
   line-height: 28px;
@@ -195,7 +195,7 @@
   width: 1000px;
   position: absolute;
   display: none;
-  left: 235px;
+  left: 224px;
   top: 296px;
   opacity: 0.85;
 }

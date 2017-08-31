@@ -1,0 +1,34 @@
+.detail_big {
+    top: 204px;
+    left: 224px;
+}
+.sort_list {
+    top: 203px;
+}
+.shoppingCart-list0 {
+    width: 100%;
+    height: 700px;
+    .shoppingCart-list {
+        height: 700px;
+        width: 1190px;
+        margin: 0 auto;
+        .bbbb{
+                span{
+                    color: red;
+                }
+            }
+        ul{
+            list-style: none;
+            
+            li{
+                margin-top: 20px;
+                height: 100px;
+                &:nth-child(1){
+                    div{
+                        margin-right: 150px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.item {
+  padding: 0;
+  text-align: left;
+  color: #E6186F; }
+
+.detail_big {
+  top: 204px;
+  left: 224px; }
+
+.sort_list {
+  top: 203px; }
+
+select {
+  padding: 5px 0; }
+
+.outer {
+  width: 500px;
+  margin: 20px auto; }
+
+/*# sourceMappingURL=pay0.css.map */

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="../css/header.css" />
+		<link rel="stylesheet" type="text/css" href="../css/nav.css" />
+		<link rel="stylesheet" type="text/css" href="../css/shoppingcart.css"/>
+		<script type="text/javascript" src="../lib/jquery/jquery-1.12.4.min.js" ></script>
+		<!--<script src="../lib/jquery_plugins/jquery.cookie.js"text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript" src="../lib/requirejs/require.js" data-main="/js/shoppingcart"></script>
+		
+	</head>
+	<body>
+		<div class="nav0">
+
+		</div>
+		<div class="header0">
+
+		</div>
+		<div class="shoppingCart-list0">
+			<div class="shoppingCart-list">
+				<ul>
+					<li><input type="checkbox" name="ck" class="goodckb goods-check" value=""  style="float: left;"/>
+			
+			<div style="float: left;margin-left: 75px;">商品名</div><div style="float: left;">数量</div><div style="float: left;">价格</div><div style="float: left;">小计</div>
+					<div>删除</div>
+					</li>
+				</ul>
+	<p class="bbbb" style="float: left;">共<span id="lala">0</span>件商品 共计￥<span id="price">0.00</span></p>
+	<span class="ackil"><button type="button" class="btn btn-success boooo pay pay-it" style="float: right;
+    margin-right: 400px;">立即购买</button></span>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script type="text/javascript">
+			$(".ackil").click(function(){
+//				alert(111)
+			location.href="/html/pay0.html"
+		})
+	</script>
+</html>

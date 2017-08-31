@@ -12,7 +12,7 @@ require(["config"],function(){
 		$(function(){
 			// 获取窗口高度
 			var winHeight = $(window).height();
-			// 获取1L之前的布局结构高度
+			// 获取1L之前的布局结构高度+
 			var layoutHeight = $(".brand-box0").offset().top;
 			// 标记是鼠标滚轮的滚动还是点击菜单导航的滚动
 			var autoScroll = true;

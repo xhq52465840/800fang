@@ -239,7 +239,8 @@ form .ctrl label.error {
   border: none !important; }
 
 .detail_big {
-  top: 204px; }
+  top: 204px;
+  left: 224px; }
 
 .sort_list {
   top: 203px; }

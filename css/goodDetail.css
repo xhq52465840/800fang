@@ -1,81 +1,25 @@
 .detail_big {
-  top: 204px; }
+  top: 204px;
+  left: 224px; }
 
 .sort_list {
   top: 203px; }
 
-.main div, .main ul, .main li {
-  padding: 0;
-  margin: 0; }
-.main li {
-  list-style-type: none; }
-.main img {
-  vertical-align: top;
-  border: 0; }
-.main .box {
-  width: 310px; }
-.main .tb-pic a {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle; }
-.main .tb-pic a img {
-  vertical-align: middle; }
-.main .tb-pic a {
-  *display: block;
-  *font-family: Arial;
-  *line-height: 1; }
-.main .tb-thumb {
-  margin: 10px 0 0;
-  overflow: hidden; }
-.main .tb-thumb li {
-  background: none repeat scroll 0 0 transparent;
-  float: left;
-  height: 42px;
-  margin: 0 6px 0 0;
-  overflow: hidden;
-  padding: 1px; }
-.main .tb-s310, .main .tb-s310 a {
-  height: 310px;
-  width: 310px; }
-.main .tb-s310, .main .tb-s310 img {
-  height: 310px;
-  width: 310px; }
-.main .tb-s310 a {
-  *font-size: 271px; }
-.main .tb-s40 a {
-  *font-size: 35px; }
-.main .tb-s40, .main .tb-s40 a {
-  height: 40px;
-  width: 40px; }
-.main .tb-booth {
-  border: 1px solid #CDCDCD;
-  position: relative;
-  z-index: 1; }
-.main .tb-thumb .tb-selected {
-  background: none repeat scroll 0 0 #C30008;
-  height: 40px;
-  padding: 2px; }
-.main .tb-thumb .tb-selected div {
-  background-color: #FFFFFF;
-  border: medium none; }
-.main .tb-thumb li div {
-  border: 1px solid #CDCDCD; }
-.main div.zoomDiv {
-  z-index: 999;
+.main {
+  width: 100%;
+  margin: 0 auto; }
+
+.buy-good {
+  width: 860px;
+  height: 573px;
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 200px;
-  height: 200px;
-  background: #ffffff;
-  border: 1px solid #CCCCCC;
-  display: none;
-  text-align: center;
-  overflow: hidden; }
-.main div.zoomMask {
-  position: absolute;
-  background: url("images/mask.png") repeat scroll 0 0 transparent;
-  cursor: move;
-  z-index: 1; }
+  top: 238px;
+  left: 365px; }
+  .buy-good p {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    height: 20px; }
 
 /*# sourceMappingURL=goodDetail.css.map */

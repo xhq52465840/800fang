@@ -5,11 +5,13 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/default.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
 		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
 		<link rel="stylesheet" type="text/css" href="../css/header.css" />
 		<link rel="stylesheet" type="text/css" href="../css/nav.css" />
 		<link rel="stylesheet" type="text/css" href="../css/goodDetail.css" />
-		<script src="../lib/jquery/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="../lib/requirejs/require.js" data-main="/js/goodDetail0"></script>
 	</head>
 
@@ -21,12 +23,56 @@
 
 		</div>
 		<div class="main">
-			<div class="mine" style="    height: 361px;width: 930px;float: right;background: deepskyblue;">
-				
+			<div class="htmleaf-content bgcolor-3" style="width: 1190px;margin: 0 auto;">
+				<div class="etalage_wrap" style="">
+					<ul id="etalage">
+						<li>
+							<img class="etalage_thumb_image" src="../img/img/1-thumb.jpg" title="first img" />
+							<img class="etalage_big_image" src="../img/img/1.jpg" />
+						</li>
+						<li>
+							<img class="etalage_thumb_image" src="../img/img/2-thumb.jpg" />
+							<img class="etalage_big_image" src="../img/img/2.jpg" />
+						</li>
+						<li>
+							<img class="etalage_thumb_image" src="../img/img/3-thumb.jpg" />
+							<img class="etalage_big_image" src="../img/img/3.jpg" />
+						</li>
+						<li>
+							<img class="etalage_thumb_image" src="../img/img/4-thumb.jpg" />
+							<img class="etalage_big_image" src="../img/img/4.jpg" />
+						</li>
+						<li>
+							<img class="etalage_thumb_image" src="../img/img/5-thumb.jpg" />
+							<img class="etalage_big_image" src="../img/img/5.jpg" />
+						</li>
+					</ul>
+				</div>
+				<div class="buy-good">
+					<div class="buy-good1" style="position: absolute;    right: 213px;
+    top: 243px;
+">
+						<span>小计</span>
+						<span id="heji" style="color: #E6186F;"></span>
+						<span class="pay">
+						<button class="btn btn-success pay" style="margin-left: 20px;">去结算</button>
+						</span>
+					</div>
+				</div>
 			</div>
-			<!--<img src="../img/goodDetail/images/01.jpg"/>-->
+
 		</div>
 		<div class="footer"></div>
 	</body>
+	<script src="../lib/jquery/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/jqzoom.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#etalage").zoom({
+			zoom_area_width: 300,
+			autoplay_interval: 3000,
+			small_thumbs: 5,
+			autoplay: true
+		});
+	</script>
 
 </html>
